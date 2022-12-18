@@ -1,0 +1,20 @@
+console.log("swaping assignment - 1");
+var sweety="Sweety", cutie="Cutie";
+console.log("*******Before Swaping Values*********");
+console.log( sweety,cutie);
+var temp=sweety;
+sweety=cutie;
+cutie=temp;
+console.log("*******After Swaping Values*********");
+console.log( sweety,cutie);
+
+console.log("\n\nswaping assignment - 2");
+var num1=100,num2=200,num3=300;
+console.log("*******Before Swaping Values*********");
+console.log(num1,num2,num3);
+temp=num1;
+num1=num2;
+num2=num3;
+num3=temp;
+console.log("*******After Swaping Values*********");
+console.log(num1,num2,num3);
