@@ -16,12 +16,12 @@ arrayNumbers.forEach((currentValue)=>{
 console.log(positiveArray);
 console.log(`---------------------------------------------------`);
 console.log(`3) Negative elements in given array `);
-let NegativeArray=[];
+let negativeArray=[];
 arrayNumbers.forEach((currentValue)=>{
     if(currentValue<0)
-    NegativeArray.push(currentValue);
+    negativeArray.push(currentValue);
 });
-console.log(NegativeArray);
+console.log(negativeArray);
 console.log(`---------------------------------------------------`);
 console.log(`4) Even Numbers in given array `);
 let evenArray=[];
