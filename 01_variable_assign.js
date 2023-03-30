@@ -13,5 +13,7 @@ var firstName = "Pandurang",
   adress = "Pandharpur",
   pin_code = "413304",
   gender = "Male",
-  is_married = "Unmarried";
+  is_married = true;
 console.log(firstName, lastName, age, adress, pin_code, gender, is_married);
+
+
