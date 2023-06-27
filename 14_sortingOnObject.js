@@ -27,3 +27,9 @@ console.log(`3) sorting array of employees in ascending order by Salary:`);
 const sortedArrayBySalary = arraEmployees.sort((id1,id2)=> id1.empSalary>id2.empSalary ? -1 : 1 );
 sortedArrayBySalary.forEach(val=>console.log(`Employee Name is: ${val.empName}, Salary: ${val.empSalary} and Company: ${val.empCompany}`));
 let num1= console.log(`Enter the Value:`);
+
+// const asce=arraEmployees.sort((val1,val2)=> val1>val2 ? -1:1);
+// asce.forEach(val=>console.log(val));
+// console.log(`===============================================================`);
+// const ascSal=arraEmployees.sort((val1,val2)=>val1.empSalary>val2.empSalary?1:-1);
+// ascSal.forEach(val=>console.log(val));

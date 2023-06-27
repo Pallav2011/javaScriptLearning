@@ -3,6 +3,6 @@ var res = gradScore>=70 || hscScore>=80 ||sscScore>=90 ? `Congrats ${candName} y
 :`unfortunatly ${candName} you are not eligible for interview`;
 console.log(res);
 }
-eligibilityTCS(80,86,90,"Pandurang");
+eligibilityTCS(80,50,90,"Pandurang");
 eligibilityTCS(70,65,55,"Rahul");
 eligibilityTCS(60,79,88,"Nitin");

@@ -14,7 +14,7 @@ console.log(clonedArray);
 console.log(`---------------------------------------------------`);
 console.log(`Step 2:`);
 let clonedArrayDeep=[...arrayNums];// deep cloning using spread operator
-arrayNums.push(10,25);
+clonedArrayDeep.push(10,25);
 console.log(`Original array is : `);
 console.log(arrayNums);
 console.log(`Cloned array is : `);
@@ -73,3 +73,4 @@ console.log(`updated values of original object :`);
 console.log(JSON.stringify(employeeInfo));
 console.log(`\nupdated values of Cloned object :`);
 console.log(JSON.stringify(clonedObject));
+

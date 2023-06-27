@@ -53,3 +53,24 @@ const resultITSal=salaryIT.reduce((runningTotal,value)=>{
     return runningTotal+value;
     });
 console.log(`Average salary of IT department is: ${resultITSal/salaryIT.length}`);
+
+
+// class empSal{
+//     constructor(sal){
+//         this.sal=sal;
+//     }
+// }
+// const emp1=new empSal(20000);
+// const emp2=new empSal(45000);
+// const emp3=new empSal(50000);
+// const emp4=new empSal(80000);
+// const emp5=new empSal(65000);
+// let arrOfEmp=[emp1,emp2,emp3,emp4,emp5];
+// calSalary=[];
+// arrOfEmp.forEach(val=>{
+//     calSalary.push(val.sal);
+// })
+// const totalsal=calSalary.reduce((runningTotal,val)=>{
+//     return runningTotal+val;
+// })
+// console.log(`total sal ${totalsal}`);

@@ -4,4 +4,4 @@ function squareOfWordLength(stringValue) {
     return stringLength*stringLength;
 }
 var lengthSquare=squareOfWordLength("JavaScript");
-console.log(`Sqaure of string Length is: ${lengthSquare}`);
+console.log(`Sqaure of string Length is: ${lengthSquare}`); 

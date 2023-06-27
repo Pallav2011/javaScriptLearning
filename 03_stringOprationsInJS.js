@@ -21,8 +21,8 @@ console.log(stringSplit);
 var indexOfString=myStringParam.indexOf("good");
 console.log(`\n7) Index of word "good" in given string is:${indexOfString}`);
 console.log(`\n8) The substring is started form index 22 is:${myStringParam.slice(22)}`);
-console.log(`\n9) Is string ends with word "up"=${stringTrim.includes("up")}`);
-console.log(`\n10) Is string starts with word "Hey"=${stringTrim.includes("Hey")}`);
+console.log(`\n9) Is string ends with word "up"=${stringTrim.endsWith("up")}`);
+console.log(`\n10) Is string starts with word "Hey"=${stringTrim.startsWith("Hey")}`);
 }
 var myString="     Hey you are doing good, keep it up       ";
 stringHandsOn(myString);
