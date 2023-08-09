@@ -30,3 +30,16 @@ console.log(typeof(totalCount),totalCount);
 //     myReverseName+=myName[index];
 // }
 // console.log(myReverseName);
+
+
+const a= 2;
+const b = "4";
+const c = a+b;
+console.log(c);
+console.log(0 == " "); // true
+console.log(0=='0'); // true
+console.log(0==false); // true
+console.log(null==undefined); // true
+console.log(1==[1]); // true
+console.log(1==true); // true
+console.log(1=='1'); // true
